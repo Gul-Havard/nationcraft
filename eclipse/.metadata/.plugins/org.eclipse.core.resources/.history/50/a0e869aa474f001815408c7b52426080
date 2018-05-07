@@ -1,0 +1,7 @@
+package com.gulhavard.nationcraft.util;
+
+public class Reference {
+
+	public static final String MOD_ID = "nationcraft";
+	
+}

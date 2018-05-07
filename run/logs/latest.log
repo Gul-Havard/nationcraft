@@ -1,0 +1,85 @@
+[01:12:17] [main/INFO] [GradleStart]: Extra: []
+[01:12:17] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/WMA/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[01:12:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:12:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:12:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:12:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:12:17] [main/INFO] [FML]: Forge Mod Loader version 14.23.3.2655 for Minecraft 1.12.2 loading
+[01:12:17] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_131, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_131
+[01:12:17] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[01:12:17] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[01:12:17] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[01:12:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[01:12:18] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[01:12:18] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[01:12:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:12:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:12:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:12:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:12:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:12:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:12:25] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[01:12:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:12:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:12:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[01:12:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:12:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:12:27] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:12:31] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player990
+[01:12:44] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[01:12:48] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 793707648 bytes (756 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.14009 Compatibility Profile Context 21.19.144.257' Renderer: 'AMD Radeon(TM) R4 Graphics'
+[01:12:48] [main/INFO] [FML]: MinecraftForge v14.23.3.2655 Initialized
+[01:12:48] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:12:48] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[01:12:50] [main/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[01:12:50] [main/INFO] [FML]: Searching C:\Users\WMA\Documents\GitHub\NationCraft\run\mods for mods
+[01:12:52] [Thread-3/INFO] [FML]: Using alternative sync timing : 200 frames of Display.update took 1633182110 nanos
+[01:12:55] [main/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[01:12:56] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, nationcraft] at CLIENT
+[01:12:56] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, nationcraft] at SERVER
+[01:12:59] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:NationCraft
+[01:12:59] [main/INFO] [FML]: Processing ObjectHolder annotations
+[01:12:59] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[01:12:59] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:12:59] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:13:00] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:13:00] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:13:00] [main/INFO] [FML]: Applying holder lookups
+[01:13:00] [main/INFO] [FML]: Holder lookups applied
+[01:13:00] [main/INFO] [FML]: Applying holder lookups
+[01:13:00] [main/INFO] [FML]: Holder lookups applied
+[01:13:00] [main/INFO] [FML]: Applying holder lookups
+[01:13:00] [main/INFO] [FML]: Holder lookups applied
+[01:13:00] [main/INFO] [FML]: Applying holder lookups
+[01:13:00] [main/INFO] [FML]: Holder lookups applied
+[01:13:00] [main/INFO] [FML]: Injecting itemstacks
+[01:13:00] [main/INFO] [FML]: Itemstack injection complete
+[01:13:00] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[01:13:33] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[01:13:33] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[01:13:33] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:13:34] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[01:13:34] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[01:13:55] [main/INFO] [FML]: Max texture size: 16384
+[01:13:59] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[01:14:06] [main/INFO] [FML]: Applying holder lookups
+[01:14:06] [main/INFO] [FML]: Holder lookups applied
+[01:14:06] [main/INFO] [FML]: Injecting itemstacks
+[01:14:06] [main/INFO] [FML]: Itemstack injection complete
+[01:14:07] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[01:14:07] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[01:14:10] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[01:14:45] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[01:14:45] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[01:14:46] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
