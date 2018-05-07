@@ -1,4 +1,8 @@
+//Items
 item.copper_ingot.name=Copper Ingot
 item.tin_ingot.name=Tin Ingot
 item.bronze_ingot.name=Bronze Ingot
 item.steel_ingot.name=Steel Ingot
+
+//Blocks
+tile.copper_ore.name=Copper Ore

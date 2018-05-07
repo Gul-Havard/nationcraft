@@ -12,6 +12,6 @@ public class ModBlocks {
 	
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
-	//public static final Block COPPER_ORE_SURFACE = new BlockBase("copper_ore_surface", Material.GROUND);
+	public static final Block COPPER_ORE = new BlockBase("copper_ore", Material.ROCK);
 
 }
