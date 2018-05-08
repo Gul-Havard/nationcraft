@@ -29,4 +29,5 @@
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.util.IHasModel"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.init.ModBlocks"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.blocks.BlockOre"/>
 </qualifiedTypeNameHistroy>
