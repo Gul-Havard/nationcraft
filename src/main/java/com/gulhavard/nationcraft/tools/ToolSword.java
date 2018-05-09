@@ -1,3 +1,4 @@
+/*
 package com.gulhavard.nationcraft.tools;
 
 import com.gulhavard.nationcraft.Main;
@@ -25,3 +26,4 @@ public class ToolSword extends ItemSword implements IHasModel {
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 }
+*/

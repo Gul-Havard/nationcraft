@@ -24,8 +24,6 @@
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.init.ModItems"/>
 <fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent.Register"/>
 <fullyQualifiedTypeName name="net.minecraftforge.client.event.ModelRegistryEvent"/>
-<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
-<fullyQualifiedTypeName name="com.gulhavard.nationcraft.init.ModBlocks"/>
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.blocks.BlockOre"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemHoe"/>
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.Main"/>
@@ -47,4 +45,19 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemAxe"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSpade"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemTool"/>
+<fullyQualifiedTypeName name="net.minecraft.init.Blocks"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Sets"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.IWorldGenerator"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="net.minecraft.world.World"/>
+<fullyQualifiedTypeName name="net.minecraft.world.chunk.IChunkProvider"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.IChunkGenerator"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenerator"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenMinable"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.init.ModBlocks"/>
+<fullyQualifiedTypeName name="net.minecraft.util.math.BlockPos"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.gen.WorldGen"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.registry.GameRegistry"/>
 </qualifiedTypeNameHistroy>

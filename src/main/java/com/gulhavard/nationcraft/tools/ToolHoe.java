@@ -1,3 +1,4 @@
+/*
 package com.gulhavard.nationcraft.tools;
 
 import com.gulhavard.nationcraft.Main;
@@ -24,3 +25,4 @@ public class ToolHoe extends ItemHoe implements IHasModel{
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 }
+*/

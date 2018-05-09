@@ -1,4 +1,4 @@
-package com.gulhavard.nationcraft.tools;
+/*package com.gulhavard.nationcraft.tools;
 
 import com.gulhavard.nationcraft.Main;
 import com.gulhavard.nationcraft.init.ModItems;
@@ -25,3 +25,4 @@ public class ToolPickaxe extends ItemPickaxe implements IHasModel {
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 }
+*/

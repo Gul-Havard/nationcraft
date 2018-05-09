@@ -5,11 +5,11 @@ import java.util.List;
 
 import com.gulhavard.nationcraft.armor.ArmorBase;
 import com.gulhavard.nationcraft.items.ItemBase;
-import com.gulhavard.nationcraft.tools.ToolAxe;
+/*import com.gulhavard.nationcraft.tools.ToolAxe;
 import com.gulhavard.nationcraft.tools.ToolHoe;
 import com.gulhavard.nationcraft.tools.ToolPickaxe;
 import com.gulhavard.nationcraft.tools.ToolShovel;
-import com.gulhavard.nationcraft.tools.ToolSword;
+import com.gulhavard.nationcraft.tools.ToolSword;*/
 import com.gulhavard.nationcraft.util.Reference;
 
 import net.minecraft.init.SoundEvents;
@@ -34,17 +34,17 @@ public class ModItems {
 	public static final Item STEEL_INGOT = new ItemBase("steel_ingot");
 	
 	// Tools
-	public static final Item COPPER_HOE = new ToolHoe("copper_hoe", TOOL_COPPER);
+	/*public static final Item COPPER_HOE = new ToolHoe("copper_hoe", TOOL_COPPER);
 	public static final Item COPPER_PICKAXE = new ToolPickaxe("copper_pickaxe", TOOL_COPPER);
 	public static final Item COPPER_AXE = new ToolAxe("copper_axe", TOOL_COPPER);
 	public static final Item COPPER_SHOVEL = new ToolShovel("copper_shovel", TOOL_COPPER);
-	public static final Item COPPER_SWORD = new ToolSword("copper_sword", TOOL_COPPER);
+	public static final Item COPPER_SWORD = new ToolSword("copper_sword", TOOL_COPPER);*/
 	
 	// Armor
-	public static final Item COPPER_HELMET = new ArmorBase("copper_helmet", ARMOR_COPPER, 1, EntityEquipmentSlot.HEAD);
+	/*public static final Item COPPER_HELMET = new ArmorBase("copper_helmet", ARMOR_COPPER, 1, EntityEquipmentSlot.HEAD);
 	public static final Item COPPER_CHESTPLATE = new ArmorBase("copper_chestplate", ARMOR_COPPER, 1, EntityEquipmentSlot.CHEST);
 	public static final Item COPPER_LEGGINGS = new ArmorBase("copper_leggings", ARMOR_COPPER, 2, EntityEquipmentSlot.LEGS);
-	public static final Item COPPER_BOOTS = new ArmorBase("copper_boots", ARMOR_COPPER, 1, EntityEquipmentSlot.FEET);
+	public static final Item COPPER_BOOTS = new ArmorBase("copper_boots", ARMOR_COPPER, 1, EntityEquipmentSlot.FEET);*/
 	
 
 }
