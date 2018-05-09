@@ -1,0 +1,28 @@
+package com.gulhavard.nationcraft.init;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.gulhavard.nationcraft.items.ItemBase;
+import com.gulhavard.nationcraft.tools.ToolHoe;
+import com.gulhavard.nationcraft.tools.ToolPickaxe;
+
+import net.minecraft.item.Item;
+
+public class ModItems {
+	
+	public static final List<Item> ITEMS = new ArrayList<Item>();
+	
+	// Ingots
+	public static final Item COPPER_INGOT = new ItemBase("copper_ingot");
+	public static final Item TIN_INGOT = new ItemBase("tin_ingot");
+	public static final Item BRONZE_INGOT = new ItemBase("bronze_ingot");
+	public static final Item STEEL_INGOT = new ItemBase("steel_ingot");
+	
+	// Tools
+	public static final Item COPPER_HOE = new ToolHoe("copper_hoe");
+	public static final Item COPPER_PICKAXE = new ToolPickaxe("copper_pickaxe");
+	public static final Item COPPER_AXE = new ToolAxe("copper_axe");
+	
+
+}

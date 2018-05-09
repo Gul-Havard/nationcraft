@@ -1,0 +1,23 @@
+# eclipse CAT
+#bin
+#*.launch
+#.settings
+#.metadata
+#.classpath
+#.project
+
+# idea CAT
+#out
+#*.ipr
+#*.iws
+#*.iml
+#.idea
+
+# gradle CAT
+#build
+#.gradle
+
+# other CAT
+#eclipse
+#run
+#/bin/

@@ -1,0 +1,343 @@
+Symbol range map extraction starting
+Processing 11 files
+startProcessing "com\gulhavard\nationcraft\Main.java" md5: 74fc2a1d3dc3c32eb54735eb901f5a1f
+@|com\gulhavard\nationcraft\Main.java|8|33|com.gulhavard.nationcraft|package|com.gulhavard.nationcraft|(file)
+Class Start: com.gulhavard.nationcraft.Main
+   @|com\gulhavard\nationcraft\Main.java|545|548|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\gulhavard\nationcraft\Main.java|549|554|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\gulhavard\nationcraft\Main.java|557|566|Reference|class|com.gulhavard.nationcraft.util.Reference
+   @|com\gulhavard\nationcraft\Main.java|567|573|MOD_ID|field|com.gulhavard.nationcraft.util.Reference|MOD_ID
+   @|com\gulhavard\nationcraft\Main.java|575|579|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\gulhavard\nationcraft\Main.java|582|591|Reference|class|com.gulhavard.nationcraft.util.Reference
+   @|com\gulhavard\nationcraft\Main.java|592|596|NAME|field|com.gulhavard.nationcraft.util.Reference|NAME
+   @|com\gulhavard\nationcraft\Main.java|598|605|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\gulhavard\nationcraft\Main.java|608|617|Reference|class|com.gulhavard.nationcraft.util.Reference
+   @|com\gulhavard\nationcraft\Main.java|618|625|VERSION|field|com.gulhavard.nationcraft.util.Reference|VERSION
+   @|com\gulhavard\nationcraft\Main.java|640|644|Main|class|com.gulhavard.nationcraft.Main
+   @|com\gulhavard\nationcraft\Main.java|675|679|Main|class|com.gulhavard.nationcraft.Main
+   @|com\gulhavard\nationcraft\Main.java|651|659|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\gulhavard\nationcraft\Main.java|675|679|Main|class|com.gulhavard.nationcraft.Main
+   @|com\gulhavard\nationcraft\Main.java|680|688|instance|field|com.gulhavard.nationcraft.Main|instance|
+   @|com\gulhavard\nationcraft\Main.java|806|817|CommonProxy|class|com.gulhavard.nationcraft.proxy.CommonProxy
+   @|com\gulhavard\nationcraft\Main.java|694|704|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\gulhavard\nationcraft\Main.java|705|715|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\gulhavard\nationcraft\Main.java|718|727|Reference|class|com.gulhavard.nationcraft.util.Reference
+   @|com\gulhavard\nationcraft\Main.java|728|746|CLIENT_PROXY_CLASS|field|com.gulhavard.nationcraft.util.Reference|CLIENT_PROXY_CLASS
+   @|com\gulhavard\nationcraft\Main.java|748|758|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\gulhavard\nationcraft\Main.java|761|770|Reference|class|com.gulhavard.nationcraft.util.Reference
+   @|com\gulhavard\nationcraft\Main.java|771|789|COMMON_PROXY_CLASS|field|com.gulhavard.nationcraft.util.Reference|COMMON_PROXY_CLASS
+   @|com\gulhavard\nationcraft\Main.java|806|817|CommonProxy|class|com.gulhavard.nationcraft.proxy.CommonProxy
+   @|com\gulhavard\nationcraft\Main.java|818|823|proxy|field|com.gulhavard.nationcraft.Main|proxy|
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\gulhavard\nationcraft\Main.java|896|901|event|param|com.gulhavard.nationcraft.Main|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\gulhavard\nationcraft\Main.java|829|841|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\gulhavard\nationcraft\Main.java|862|869|PreInit|method|com.gulhavard.nationcraft.Main|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\gulhavard\nationcraft\Main.java|870|895|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\gulhavard\nationcraft\Main.java|976|981|event|param|com.gulhavard.nationcraft.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\gulhavard\nationcraft\Main.java|915|927|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\gulhavard\nationcraft\Main.java|948|952|init|method|com.gulhavard.nationcraft.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\gulhavard\nationcraft\Main.java|953|975|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\gulhavard\nationcraft\Main.java|1064|1069|event|param|com.gulhavard.nationcraft.Main|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\gulhavard\nationcraft\Main.java|995|1007|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\gulhavard\nationcraft\Main.java|1028|1036|PostInit|method|com.gulhavard.nationcraft.Main|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\gulhavard\nationcraft\Main.java|1037|1063|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.gulhavard.nationcraft.Main
+endProcessing "com\gulhavard\nationcraft\Main.java"
+
+startProcessing "com\gulhavard\nationcraft\blocks\BlockBase.java" md5: cb0e16d95ccb21f944e05ccf0267d52d
+@|com\gulhavard\nationcraft\blocks\BlockBase.java|8|40|com.gulhavard.nationcraft.blocks|package|com.gulhavard.nationcraft.blocks|(file)
+Class Start: com.gulhavard.nationcraft.blocks.BlockBase
+   @|com\gulhavard\nationcraft\blocks\BlockBase.java|439|448|BlockBase|class|com.gulhavard.nationcraft.blocks.BlockBase
+   @|com\gulhavard\nationcraft\blocks\BlockBase.java|457|462|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\blocks\BlockBase.java|474|483|IHasModel|class|com.gulhavard.nationcraft.util.IHasModel
+   Method Start: BlockBase(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|511|515|name|param|com.gulhavard.nationcraft.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|526|534|material|param|com.gulhavard.nationcraft.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|494|503|BlockBase|method|com.gulhavard.nationcraft.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|504|510|String|class|java.lang.String
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|517|525|Material|class|net.minecraft.block.material.Material
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|547|555|material|param|com.gulhavard.nationcraft.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|560|578|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|579|583|name|param|com.gulhavard.nationcraft.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|588|603|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|604|608|name|param|com.gulhavard.nationcraft.blocks.BlockBase|BlockBase|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|613|627|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|628|640|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|641|656|BUILDING_BLOCKS|field|net.minecraft.creativetab.CreativeTabs|BUILDING_BLOCKS
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|664|673|ModBlocks|class|com.gulhavard.nationcraft.init.ModBlocks
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|674|680|BLOCKS|field|com.gulhavard.nationcraft.init.ModBlocks|BLOCKS
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|681|684|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|694|702|ModItems|class|com.gulhavard.nationcraft.init.ModItems
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|703|708|ITEMS|field|com.gulhavard.nationcraft.init.ModItems|ITEMS
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|709|712|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|717|726|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|733|748|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|754|769|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: BlockBase(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+   Method Start: registerModels()V
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|781|789|Override|class|java.lang.Override
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|803|817|registerModels|method|com.gulhavard.nationcraft.util.IHasModel|registerModels|()V
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|824|828|Main|class|com.gulhavard.nationcraft.Main
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|829|834|proxy|field|com.gulhavard.nationcraft.Main|proxy
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|835|855|registerItemRenderer|method|com.gulhavard.nationcraft.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|856|860|Item|class|net.minecraft.item.Item
+      @|com\gulhavard\nationcraft\blocks\BlockBase.java|861|877|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+   Method End: registerModels()V
+Class End  : com.gulhavard.nationcraft.blocks.BlockBase
+endProcessing "com\gulhavard\nationcraft\blocks\BlockBase.java"
+
+startProcessing "com\gulhavard\nationcraft\blocks\BlockOre.java" md5: 7a7199e48f750e29040ee7a5d23e0cc2
+@|com\gulhavard\nationcraft\blocks\BlockOre.java|8|40|com.gulhavard.nationcraft.blocks|package|com.gulhavard.nationcraft.blocks|(file)
+Class Start: com.gulhavard.nationcraft.blocks.BlockOre
+   @|com\gulhavard\nationcraft\blocks\BlockOre.java|103|111|BlockOre|class|com.gulhavard.nationcraft.blocks.BlockOre
+   @|com\gulhavard\nationcraft\blocks\BlockOre.java|120|129|BlockBase|class|com.gulhavard.nationcraft.blocks.BlockBase
+   Method Start: BlockOre(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com\gulhavard\nationcraft\blocks\BlockOre.java|157|161|name|param|com.gulhavard.nationcraft.blocks.BlockOre|BlockOre|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com\gulhavard\nationcraft\blocks\BlockOre.java|172|180|material|param|com.gulhavard.nationcraft.blocks.BlockOre|BlockOre|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+      @|com\gulhavard\nationcraft\blocks\BlockOre.java|141|149|BlockOre|method|com.gulhavard.nationcraft.blocks.BlockOre|BlockOre|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+      @|com\gulhavard\nationcraft\blocks\BlockOre.java|150|156|String|class|java.lang.String
+      @|com\gulhavard\nationcraft\blocks\BlockOre.java|163|171|Material|class|net.minecraft.block.material.Material
+      @|com\gulhavard\nationcraft\blocks\BlockOre.java|192|196|name|param|com.gulhavard.nationcraft.blocks.BlockOre|BlockOre|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|name|0
+      @|com\gulhavard\nationcraft\blocks\BlockOre.java|198|206|material|param|com.gulhavard.nationcraft.blocks.BlockOre|BlockOre|(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V|material|1
+   Method End: BlockOre(Ljava/lang/String;Lnet/minecraft/block/material/Material;)V
+Class End  : com.gulhavard.nationcraft.blocks.BlockOre
+endProcessing "com\gulhavard\nationcraft\blocks\BlockOre.java"
+
+startProcessing "com\gulhavard\nationcraft\init\ModBlocks.java" md5: 68ed837e17260a9487a1a61c00d6a38c
+@|com\gulhavard\nationcraft\init\ModBlocks.java|8|38|com.gulhavard.nationcraft.init|package|com.gulhavard.nationcraft.init|(file)
+Class Start: com.gulhavard.nationcraft.init.ModBlocks
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|289|298|ModBlocks|class|com.gulhavard.nationcraft.init.ModBlocks
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|329|334|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|324|328|List|class|java.util.List
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|324|328|List|class|java.util.List
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|329|334|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|336|342|BLOCKS|field|com.gulhavard.nationcraft.init.ModBlocks|BLOCKS|
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|349|358|ArrayList|class|java.util.ArrayList
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|359|364|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|392|397|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|392|397|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|398|408|COPPER_ORE|field|com.gulhavard.nationcraft.init.ModBlocks|COPPER_ORE|
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|415|423|BlockOre|class|com.gulhavard.nationcraft.blocks.BlockOre
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|438|446|Material|class|net.minecraft.block.material.Material
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|447|451|ROCK|field|net.minecraft.block.material.Material|ROCK
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|475|480|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|475|480|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|481|488|TIN_ORE|field|com.gulhavard.nationcraft.init.ModBlocks|TIN_ORE|
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|495|503|BlockOre|class|com.gulhavard.nationcraft.blocks.BlockOre
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|515|523|Material|class|net.minecraft.block.material.Material
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|524|528|ROCK|field|net.minecraft.block.material.Material|ROCK
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|552|557|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|552|557|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|558|566|ZINC_ORE|field|com.gulhavard.nationcraft.init.ModBlocks|ZINC_ORE|
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|573|581|BlockOre|class|com.gulhavard.nationcraft.blocks.BlockOre
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|594|602|Material|class|net.minecraft.block.material.Material
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|603|607|ROCK|field|net.minecraft.block.material.Material|ROCK
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|631|636|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|631|636|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|637|649|ALUMINUM_ORE|field|com.gulhavard.nationcraft.init.ModBlocks|ALUMINUM_ORE|
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|656|664|BlockOre|class|com.gulhavard.nationcraft.blocks.BlockOre
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|681|689|Material|class|net.minecraft.block.material.Material
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|690|694|ROCK|field|net.minecraft.block.material.Material|ROCK
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|718|723|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|718|723|Block|class|net.minecraft.block.Block
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|724|736|COPPER_BLOCK|field|com.gulhavard.nationcraft.init.ModBlocks|COPPER_BLOCK|
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|743|752|BlockBase|class|com.gulhavard.nationcraft.blocks.BlockBase
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|769|777|Material|class|net.minecraft.block.material.Material
+   @|com\gulhavard\nationcraft\init\ModBlocks.java|778|782|IRON|field|net.minecraft.block.material.Material|IRON
+Class End  : com.gulhavard.nationcraft.init.ModBlocks
+endProcessing "com\gulhavard\nationcraft\init\ModBlocks.java"
+
+startProcessing "com\gulhavard\nationcraft\init\ModItems.java" md5: a337b08847e92882d11a23609900d086
+@|com\gulhavard\nationcraft\init\ModItems.java|8|38|com.gulhavard.nationcraft.init|package|com.gulhavard.nationcraft.init|(file)
+Class Start: com.gulhavard.nationcraft.init.ModItems
+   @|com\gulhavard\nationcraft\init\ModItems.java|189|197|ModItems|class|com.gulhavard.nationcraft.init.ModItems
+   @|com\gulhavard\nationcraft\init\ModItems.java|228|232|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|223|227|List|class|java.util.List
+   @|com\gulhavard\nationcraft\init\ModItems.java|223|227|List|class|java.util.List
+   @|com\gulhavard\nationcraft\init\ModItems.java|228|232|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|234|239|ITEMS|field|com.gulhavard.nationcraft.init.ModItems|ITEMS|
+   @|com\gulhavard\nationcraft\init\ModItems.java|246|255|ArrayList|class|java.util.ArrayList
+   @|com\gulhavard\nationcraft\init\ModItems.java|256|260|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|288|292|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|288|292|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|293|305|COPPER_INGOT|field|com.gulhavard.nationcraft.init.ModItems|COPPER_INGOT|
+   @|com\gulhavard\nationcraft\init\ModItems.java|312|320|ItemBase|class|com.gulhavard.nationcraft.items.ItemBase
+   @|com\gulhavard\nationcraft\init\ModItems.java|359|363|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|359|363|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|364|373|TIN_INGOT|field|com.gulhavard.nationcraft.init.ModItems|TIN_INGOT|
+   @|com\gulhavard\nationcraft\init\ModItems.java|380|388|ItemBase|class|com.gulhavard.nationcraft.items.ItemBase
+   @|com\gulhavard\nationcraft\init\ModItems.java|424|428|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|424|428|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|429|441|BRONZE_INGOT|field|com.gulhavard.nationcraft.init.ModItems|BRONZE_INGOT|
+   @|com\gulhavard\nationcraft\init\ModItems.java|448|456|ItemBase|class|com.gulhavard.nationcraft.items.ItemBase
+   @|com\gulhavard\nationcraft\init\ModItems.java|495|499|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|495|499|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\init\ModItems.java|500|511|STEEL_INGOT|field|com.gulhavard.nationcraft.init.ModItems|STEEL_INGOT|
+   @|com\gulhavard\nationcraft\init\ModItems.java|518|526|ItemBase|class|com.gulhavard.nationcraft.items.ItemBase
+Class End  : com.gulhavard.nationcraft.init.ModItems
+endProcessing "com\gulhavard\nationcraft\init\ModItems.java"
+
+startProcessing "com\gulhavard\nationcraft\items\ItemBase.java" md5: 0a6c90b27ba164196b6f94bbb3839df2
+@|com\gulhavard\nationcraft\items\ItemBase.java|8|39|com.gulhavard.nationcraft.items|package|com.gulhavard.nationcraft.items|(file)
+Class Start: com.gulhavard.nationcraft.items.ItemBase
+   @|com\gulhavard\nationcraft\items\ItemBase.java|272|280|ItemBase|class|com.gulhavard.nationcraft.items.ItemBase
+   @|com\gulhavard\nationcraft\items\ItemBase.java|289|293|Item|class|net.minecraft.item.Item
+   @|com\gulhavard\nationcraft\items\ItemBase.java|305|314|IHasModel|class|com.gulhavard.nationcraft.util.IHasModel
+   Method Start: ItemBase(Ljava/lang/String;)V
+      @|com\gulhavard\nationcraft\items\ItemBase.java|342|346|name|param|com.gulhavard.nationcraft.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\gulhavard\nationcraft\items\ItemBase.java|326|334|ItemBase|method|com.gulhavard.nationcraft.items.ItemBase|ItemBase|(Ljava/lang/String;)V
+      @|com\gulhavard\nationcraft\items\ItemBase.java|335|341|String|class|java.lang.String
+      @|com\gulhavard\nationcraft\items\ItemBase.java|353|371|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\gulhavard\nationcraft\items\ItemBase.java|372|376|name|param|com.gulhavard.nationcraft.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\gulhavard\nationcraft\items\ItemBase.java|381|396|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\gulhavard\nationcraft\items\ItemBase.java|397|401|name|param|com.gulhavard.nationcraft.items.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\gulhavard\nationcraft\items\ItemBase.java|406|420|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\gulhavard\nationcraft\items\ItemBase.java|421|433|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\gulhavard\nationcraft\items\ItemBase.java|434|443|MATERIALS|field|net.minecraft.creativetab.CreativeTabs|MATERIALS
+      @|com\gulhavard\nationcraft\items\ItemBase.java|451|459|ModItems|class|com.gulhavard.nationcraft.init.ModItems
+      @|com\gulhavard\nationcraft\items\ItemBase.java|460|465|ITEMS|field|com.gulhavard.nationcraft.init.ModItems|ITEMS
+      @|com\gulhavard\nationcraft\items\ItemBase.java|466|469|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: ItemBase(Ljava/lang/String;)V
+   Method Start: registerModels()V
+      @|com\gulhavard\nationcraft\items\ItemBase.java|484|492|Override|class|java.lang.Override
+      @|com\gulhavard\nationcraft\items\ItemBase.java|506|520|registerModels|method|com.gulhavard.nationcraft.util.IHasModel|registerModels|()V
+      @|com\gulhavard\nationcraft\items\ItemBase.java|530|534|Main|class|com.gulhavard.nationcraft.Main
+      @|com\gulhavard\nationcraft\items\ItemBase.java|535|540|proxy|field|com.gulhavard.nationcraft.Main|proxy
+      @|com\gulhavard\nationcraft\items\ItemBase.java|541|561|registerItemRenderer|method|com.gulhavard.nationcraft.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+   Method End: registerModels()V
+Class End  : com.gulhavard.nationcraft.items.ItemBase
+endProcessing "com\gulhavard\nationcraft\items\ItemBase.java"
+
+startProcessing "com\gulhavard\nationcraft\proxy\ClientProxy.java" md5: 037d8e59fe3bd34a4f21eac1febbd43f
+@|com\gulhavard\nationcraft\proxy\ClientProxy.java|8|39|com.gulhavard.nationcraft.proxy|package|com.gulhavard.nationcraft.proxy|(file)
+Class Start: com.gulhavard.nationcraft.proxy.ClientProxy
+   @|com\gulhavard\nationcraft\proxy\ClientProxy.java|212|223|ClientProxy|class|com.gulhavard.nationcraft.proxy.ClientProxy
+   @|com\gulhavard\nationcraft\proxy\ClientProxy.java|232|243|CommonProxy|class|com.gulhavard.nationcraft.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|285|289|item|param|com.gulhavard.nationcraft.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|295|299|meta|param|com.gulhavard.nationcraft.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|308|310|id|param|com.gulhavard.nationcraft.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|259|279|registerItemRenderer|method|com.gulhavard.nationcraft.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|280|284|Item|class|net.minecraft.item.Item
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|301|307|String|class|java.lang.String
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|316|327|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|328|358|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|359|363|item|param|com.gulhavard.nationcraft.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|365|369|meta|param|com.gulhavard.nationcraft.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|375|396|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|397|401|item|param|com.gulhavard.nationcraft.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|402|417|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com\gulhavard\nationcraft\proxy\ClientProxy.java|421|423|id|param|com.gulhavard.nationcraft.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.gulhavard.nationcraft.proxy.ClientProxy
+endProcessing "com\gulhavard\nationcraft\proxy\ClientProxy.java"
+
+startProcessing "com\gulhavard\nationcraft\proxy\CommonProxy.java" md5: f23b0a3236502bc5285a58c8fd176c1c
+@|com\gulhavard\nationcraft\proxy\CommonProxy.java|8|39|com.gulhavard.nationcraft.proxy|package|com.gulhavard.nationcraft.proxy|(file)
+Class Start: com.gulhavard.nationcraft.proxy.CommonProxy
+   @|com\gulhavard\nationcraft\proxy\CommonProxy.java|88|99|CommonProxy|class|com.gulhavard.nationcraft.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\gulhavard\nationcraft\proxy\CommonProxy.java|143|147|item|param|com.gulhavard.nationcraft.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\gulhavard\nationcraft\proxy\CommonProxy.java|153|157|meta|param|com.gulhavard.nationcraft.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com\gulhavard\nationcraft\proxy\CommonProxy.java|166|168|id|param|com.gulhavard.nationcraft.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com\gulhavard\nationcraft\proxy\CommonProxy.java|117|137|registerItemRenderer|method|com.gulhavard.nationcraft.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\gulhavard\nationcraft\proxy\CommonProxy.java|138|142|Item|class|net.minecraft.item.Item
+      @|com\gulhavard\nationcraft\proxy\CommonProxy.java|159|165|String|class|java.lang.String
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.gulhavard.nationcraft.proxy.CommonProxy
+endProcessing "com\gulhavard\nationcraft\proxy\CommonProxy.java"
+
+startProcessing "com\gulhavard\nationcraft\util\IHasModel.java" md5: b41c0c44f04c7baf20dac00ff4cf626c
+@|com\gulhavard\nationcraft\util\IHasModel.java|8|38|com.gulhavard.nationcraft.util|package|com.gulhavard.nationcraft.util|(file)
+Class Start: com.gulhavard.nationcraft.util.IHasModel
+   @|com\gulhavard\nationcraft\util\IHasModel.java|58|67|IHasModel|class|com.gulhavard.nationcraft.util.IHasModel
+   Method Start: registerModels()V
+      @|com\gulhavard\nationcraft\util\IHasModel.java|85|99|registerModels|method|com.gulhavard.nationcraft.util.IHasModel|registerModels|()V
+   Method End: registerModels()V
+Class End  : com.gulhavard.nationcraft.util.IHasModel
+endProcessing "com\gulhavard\nationcraft\util\IHasModel.java"
+
+startProcessing "com\gulhavard\nationcraft\util\Reference.java" md5: 0d2094eef2f015e5ff334e0407fceab3
+@|com\gulhavard\nationcraft\util\Reference.java|8|38|com.gulhavard.nationcraft.util|package|com.gulhavard.nationcraft.util|(file)
+Class Start: com.gulhavard.nationcraft.util.Reference
+   @|com\gulhavard\nationcraft\util\Reference.java|54|63|Reference|class|com.gulhavard.nationcraft.util.Reference
+   @|com\gulhavard\nationcraft\util\Reference.java|88|94|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|88|94|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|95|101|MOD_ID|field|com.gulhavard.nationcraft.util.Reference|MOD_ID|
+   @|com\gulhavard\nationcraft\util\Reference.java|140|146|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|140|146|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|147|151|NAME|field|com.gulhavard.nationcraft.util.Reference|NAME|
+   @|com\gulhavard\nationcraft\util\Reference.java|190|196|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|190|196|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|197|204|VERSION|field|com.gulhavard.nationcraft.util.Reference|VERSION|
+   @|com\gulhavard\nationcraft\util\Reference.java|243|249|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|243|249|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|250|267|ACCEPTED_VERSIONS|field|com.gulhavard.nationcraft.util.Reference|ACCEPTED_VERSIONS|
+   @|com\gulhavard\nationcraft\util\Reference.java|303|309|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|303|309|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|310|328|CLIENT_PROXY_CLASS|field|com.gulhavard.nationcraft.util.Reference|CLIENT_PROXY_CLASS|
+   @|com\gulhavard\nationcraft\util\Reference.java|399|405|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|399|405|String|class|java.lang.String
+   @|com\gulhavard\nationcraft\util\Reference.java|406|424|COMMON_PROXY_CLASS|field|com.gulhavard.nationcraft.util.Reference|COMMON_PROXY_CLASS|
+Class End  : com.gulhavard.nationcraft.util.Reference
+endProcessing "com\gulhavard\nationcraft\util\Reference.java"
+
+startProcessing "com\gulhavard\nationcraft\util\handlers\RegistryHandler.java" md5: 16056d0a8ec7862cb1f8612d40155a09
+@|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|8|47|com.gulhavard.nationcraft.util.handlers|package|com.gulhavard.nationcraft.util.handlers|(file)
+Class Start: com.gulhavard.nationcraft.util.handlers.RegistryHandler
+   @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|498|516|EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+   @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|530|545|RegistryHandler|class|com.gulhavard.nationcraft.util.handlers.RegistryHandler
+   Method Start: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|629|634|event|param|com.gulhavard.nationcraft.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|550|564|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|585|599|onItemRegister|method|com.gulhavard.nationcraft.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|600|622|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|623|627|Item|class|net.minecraft.item.Item
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|641|646|event|param|com.gulhavard.nationcraft.util.handlers.RegistryHandler|onItemRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|647|658|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|661|672|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|673|681|ModItems|class|com.gulhavard.nationcraft.init.ModItems
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|682|687|ITEMS|field|com.gulhavard.nationcraft.init.ModItems|ITEMS
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|688|695|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|700|704|Item|class|net.minecraft.item.Item
+   Method End: onItemRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|799|804|event|param|com.gulhavard.nationcraft.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|718|732|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|753|768|onBlockRegister|method|com.gulhavard.nationcraft.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|769|791|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|792|797|Block|class|net.minecraft.block.Block
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|811|816|event|param|com.gulhavard.nationcraft.util.handlers.RegistryHandler|onBlockRegister|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|817|828|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|831|842|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|843|852|ModBlocks|class|com.gulhavard.nationcraft.init.ModBlocks
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|853|859|BLOCKS|field|com.gulhavard.nationcraft.init.ModBlocks|BLOCKS
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|860|867|toArray|method|java.util.Collection|toArray|([Ljava/lang/Object;)[Ljava/lang/Object;
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|872|877|Block|class|net.minecraft.block.Block
+   Method End: onBlockRegister(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+   Method Start: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|961|966|event|param|com.gulhavard.nationcraft.util.handlers.RegistryHandler|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|891|905|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|926|941|onModelRegister|method|com.gulhavard.nationcraft.util.handlers.RegistryHandler|onModelRegister|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|942|960|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|977|981|Item|class|net.minecraft.item.Item
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|989|997|ModItems|class|com.gulhavard.nationcraft.init.ModItems
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|998|1003|ITEMS|field|com.gulhavard.nationcraft.init.ModItems|ITEMS
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1031|1040|IHasModel|class|com.gulhavard.nationcraft.util.IHasModel
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1053|1062|IHasModel|class|com.gulhavard.nationcraft.util.IHasModel
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1069|1083|registerModels|method|com.gulhavard.nationcraft.util.IHasModel|registerModels|()V
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1105|1110|Block|class|net.minecraft.block.Block
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1119|1128|ModBlocks|class|com.gulhavard.nationcraft.init.ModBlocks
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1129|1135|BLOCKS|field|com.gulhavard.nationcraft.init.ModBlocks|BLOCKS
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1164|1173|IHasModel|class|com.gulhavard.nationcraft.util.IHasModel
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1186|1195|IHasModel|class|com.gulhavard.nationcraft.util.IHasModel
+      @|com\gulhavard\nationcraft\util\handlers\RegistryHandler.java|1203|1217|registerModels|method|com.gulhavard.nationcraft.util.IHasModel|registerModels|()V
+   Method End: onModelRegister(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+Class End  : com.gulhavard.nationcraft.util.handlers.RegistryHandler
+endProcessing "com\gulhavard\nationcraft\util\handlers\RegistryHandler.java"
+

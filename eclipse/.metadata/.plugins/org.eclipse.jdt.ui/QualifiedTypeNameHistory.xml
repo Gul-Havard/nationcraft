@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.gulhavard.nationcraft.util.Reference"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.Instance"/>
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.proxy.CommonProxy"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.SidedProxy"/>
@@ -15,7 +14,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.items.ItemBase"/>
 <fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
-<fullyQualifiedTypeName name="com.gulhavard.nationcraft.Main"/>
 <fullyQualifiedTypeName name="net.minecraftforge.client.model.ModelLoader"/>
 <fullyQualifiedTypeName name="net.minecraft.client.renderer.block.model.ModelResourceLocation"/>
 <fullyQualifiedTypeName name="net.minecraftforge.fml.common.Mod.EventBusSubscriber"/>
@@ -26,8 +24,27 @@
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.init.ModItems"/>
 <fullyQualifiedTypeName name="net.minecraftforge.event.RegistryEvent.Register"/>
 <fullyQualifiedTypeName name="net.minecraftforge.client.event.ModelRegistryEvent"/>
-<fullyQualifiedTypeName name="com.gulhavard.nationcraft.util.IHasModel"/>
 <fullyQualifiedTypeName name="net.minecraft.block.Block"/>
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.init.ModBlocks"/>
 <fullyQualifiedTypeName name="com.gulhavard.nationcraft.blocks.BlockOre"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemHoe"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.Main"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.tools.ToolHoe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemPickaxe"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.util.IHasModel"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.tools.ToolPickaxe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.tools.ToolAxe"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.tools.ToolShovel"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.tools.ToolSword"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.armor.ArmorBase"/>
+<fullyQualifiedTypeName name="net.minecraftforge.common.util.EnumHelper"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item.ToolMaterial"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemArmor.ArmorMaterial"/>
+<fullyQualifiedTypeName name="com.gulhavard.nationcraft.util.Reference"/>
+<fullyQualifiedTypeName name="net.minecraft.init.SoundEvents"/>
+<fullyQualifiedTypeName name="net.minecraft.inventory.EntityEquipmentSlot"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemAxe"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSpade"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
 </qualifiedTypeNameHistroy>

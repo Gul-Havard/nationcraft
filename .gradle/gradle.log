@@ -11,65 +11,36 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 #################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
-:getVersionJson
-:extractUserdev
-:extractDependencyATs SKIPPED
+:sourceApiJava
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJava
+:processResources
+:classes
+:jar
+:sourceTestJava
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
 :extractMcpData SKIPPED
-:extractMcpMappings
+:extractMcpMappings SKIPPED
+:getVersionJson
+:extractUserdev UP-TO-DATE
 :genSrgs SKIPPED
-:downloadClient SKIPPED
-:downloadServer SKIPPED
-:splitServerJar SKIPPED
-:mergeJars SKIPPED
-:deobfMcSRG SKIPPED
-:decompileMc SKIPPED
-:fixMcSources
-:applySourcePatches
-:remapMcSources SKIPPED
-:recompileMc SKIPPED
-:extractNatives SKIPPED
-:getAssetIndex UP-TO-DATE
-:getAssets
-Current status: 71/1283   5%
-Current status: 137/1283   10%
-Current status: 185/1283   14%
-Current status: 224/1283   17%
-Current status: 317/1283   24%
-Current status: 451/1283   35%
-Current status: 583/1283   45%
-Current status: 656/1283   51%
-Current status: 740/1283   57%
-Current status: 824/1283   64%
-Current status: 908/1283   70%
-Current status: 997/1283   77%
-Current status: 1059/1283   82%
-Current status: 1131/1283   88%
-Current status: 1253/1283   97%
-:makeStart
-:setupDecompWorkspace
-:eclipseClasspath
-Download https://libraries.minecraft.net/com/mojang/patchy/1.1/patchy-1.1-sources.jar
-Download https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.4.0/jna-4.4.0-sources.jar
-Download https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3-sources.jar
-Download https://repo1.maven.org/maven2/io/netty/netty-all/4.1.9.Final/netty-all-4.1.9.Final-sources.jar
-Download https://repo1.maven.org/maven2/com/google/guava/guava/21.0/guava-21.0-sources.jar
-Download https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5-sources.jar
-Download https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar
-Download https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar
-Download https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.0/gson-2.8.0-sources.jar
-Download https://libraries.minecraft.net/com/mojang/authlib/1.5.25/authlib-1.5.25-sources.jar
-Download https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/7.1.0/fastutil-7.1.0-sources.jar
-Download https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.8.1/log4j-api-2.8.1-sources.jar
-Download https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.8.1/log4j-core-2.8.1-sources.jar
-Download https://libraries.minecraft.net/com/mojang/text2speech/1.10.3/text2speech-1.10.3-sources.jar
-Download https://repo1.maven.org/maven2/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2-sources.jar
-Download https://repo1.maven.org/maven2/ca/weblite/java-objc-bridge/1.0.0/java-objc-bridge-1.0.0-sources.jar
-:eclipseJdt
-:eclipseProject
-:makeEclipseCleanRunClient
-:makeEclipseCleanRunServer
-:eclipse
+:reobfJar
+:extractAnnotationsJar
+:extractRangemapReplacedMain
+C:\Users\WMA\Documents\GitHub\NationCraft\build\sources\main\java
+:retromapReplacedMain
+remapping source...
+:sourceJar
+:assemble
+:check UP-TO-DATE
+:build
 
 BUILD SUCCESSFUL
 
-Total time: 3 mins 56.146 secs
+Total time: 2 mins 0.964 secs
