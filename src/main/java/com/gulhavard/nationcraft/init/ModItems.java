@@ -3,7 +3,6 @@ package com.gulhavard.nationcraft.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.gulhavard.nationcraft.armor.ArmorBase;
 import com.gulhavard.nationcraft.items.ItemBase;
 /*import com.gulhavard.nationcraft.tools.ToolAxe;
 import com.gulhavard.nationcraft.tools.ToolHoe;

@@ -1,0 +1,5 @@
+package com.gulhavard.nationcraft.util.handlers;
+
+public enum EnumHandler {
+
+}

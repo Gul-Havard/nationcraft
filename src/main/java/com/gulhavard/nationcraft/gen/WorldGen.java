@@ -2,8 +2,12 @@ package com.gulhavard.nationcraft.gen;
 
 import java.util.Random;
 
+import com.gulhavard.nationcraft.blocks.BlockOre;
 import com.gulhavard.nationcraft.init.ModBlocks;
+import com.gulhavard.nationcraft.util.handlers.EnumHandler;
 
+import net.minecraft.block.state.pattern.BlockMatcher;
+import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -15,11 +19,12 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class WorldGen implements IWorldGenerator
 {
 	
-	private WorldGenerator COPPER_ORE;
+	private WorldGenerator copper_ore, tin_ore;
 	
 	public WorldGen()
 	{
-		COPPER_ORE = new WorldGenMinable(ModBlocks.COPPER_ORE.getDefaultState(), 7);
+		copper_ore = new WorldGenMinable(ModBlocks.COPPER_ORE.getDefaultState().withProperty(BlockOre.VARIANT, EnumHandler.EnumType.COPPER_ORE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		tin_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockOre.VARIANT, EnumHandler.EnumType.TIN_ORE), 7, BlockMatcher.forBlock(Blocks.STONE));
 	}
 	
 
@@ -29,7 +34,8 @@ public class WorldGen implements IWorldGenerator
 		{
 		case 0:
 			
-			runGenerator(COPPER_ORE, world, random, chunkX, chunkZ, 100, 5, 100);
+			runGenerator(copper_ore, world, random, chunkX, chunkZ, 50, 0, 100);
+			runGenerator(tin_ore, world, random, chunkX, chunkZ, 50, 0, 100);
 			
 			break;
 			

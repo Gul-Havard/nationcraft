@@ -36,3 +36,10 @@
 1525825997986	Rename type 'ToolPickaxe'
 1525833527493	Rename type 'Gen'
 1525836752520	Delete element
+1525995310377	Delete element
+1526003059668	Rename package 'item'
+1526004506447	Rename resource 'copper_ore.json'
+1526004515652	Rename resource 'tin_ore.json'
+1526004523379	Rename resource 'zinc_ore.json'
+1526004532945	Rename resource 'aluminum_ore.json'
+1526005026065	Rename resource 'copper_ore.png'

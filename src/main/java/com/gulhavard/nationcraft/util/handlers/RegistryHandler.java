@@ -1,5 +1,6 @@
 package com.gulhavard.nationcraft.util.handlers;
 
+import com.gulhavard.nationcraft.gen.WorldGen;
 import com.gulhavard.nationcraft.init.ModBlocks;
 import com.gulhavard.nationcraft.init.ModItems;
 import com.gulhavard.nationcraft.util.IHasModel;
@@ -44,5 +45,9 @@ public class RegistryHandler {
 				((IHasModel)block).registerModels();
 			}
 		}
+	}
+	public static void otherRegistries()
+	{
+		GameRegistry.registerWorldGenerator(new WorldGen(), 0);
 	}
 }
