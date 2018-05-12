@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "nationcraft:aluminum_ore" }
+        "variant=_stone": { "model": "nationcraft:aluminum_ore_stone" }
     }
 }

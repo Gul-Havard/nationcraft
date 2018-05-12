@@ -1,15 +1,17 @@
 {
-  "type": "crafting_shaped",
-  "pattern": [
-    "XXX",
-    "X X"
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+        "XXX",
+        "X X"
   ],
   "key": {
-    "X": {
+    "0": {
       "item": "nationcraft:steel_ingot"
     }
   },
   "result": {
-    "item": "minecraft:diamond_helmet"
+    "item": "minecraft:diamond_helmet",
+    "count": 1
   }
 }

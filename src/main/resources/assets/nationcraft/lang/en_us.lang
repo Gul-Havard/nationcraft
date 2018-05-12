@@ -5,10 +5,10 @@ item.bronze_ingot.name=Bronze Ingot
 item.steel_ingot.name=Steel Ingot
 
 // ORE
-tile.copper_orecopper.name=Copper Ore
-tile.tin_oretin.name=Tin Ore
-tile.zinc_orezinc.name=Zinc Ore
-tile.aluminum_orealuminum.name=Aluminum Ore
+tile.copper_ore_stone.name=Copper Ore
+tile.tin_ore_stone.name=Tin Ore
+tile.zinc_ore_stone.name=Zinc Ore
+tile.aluminum_ore_stone.name=Aluminum Ore
 
 // METAL BLOCKS
 tile.copper_block.name=Copper Block
