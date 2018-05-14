@@ -11,9 +11,28 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 #################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
+<<<<<<< HEAD
 :getVersionJson
 :extractUserdev
 :extractDependencyATs SKIPPED
+=======
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavaNote: C:\Users\WMA\Documents\GitHub\NationCraft\build\sources\main\java\com\gulhavard\nationcraft\blocks\BlockOre.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:processResources
+:classes
+:jar
+:sourceTestJava UP-TO-DATE
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+>>>>>>> 6d35408ca9883422cb4ae7ce75143225de14a6a4
 :extractMcpData SKIPPED
 :extractMcpMappings SKIPPED
 :genSrgs SKIPPED
@@ -60,4 +79,8 @@ Current status: 1245/1283   97%
 
 BUILD SUCCESSFUL
 
+<<<<<<< HEAD
 Total time: 1 mins 39.785 secs
+=======
+Total time: 2 mins 4.454 secs
+>>>>>>> 6d35408ca9883422cb4ae7ce75143225de14a6a4

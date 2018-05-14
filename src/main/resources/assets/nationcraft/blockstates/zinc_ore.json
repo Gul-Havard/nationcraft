@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "nationcraft:zinc_ore" }
+        "variant=_stone": { "model": "nationcraft:zinc_ore_stone" }
     }
 }

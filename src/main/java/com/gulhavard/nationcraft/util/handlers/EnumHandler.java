@@ -6,7 +6,7 @@ public class EnumHandler
 {
 	public static enum EnumType implements IStringSerializable
 	{
-		COPPER_ORE(0, "copper"), TIN_ORE(1, "tin");
+		STONE(0, "_stone");
 		
 		private static final EnumType[] META_LOOKUP = new EnumType[values().length];
 		private final int meta;

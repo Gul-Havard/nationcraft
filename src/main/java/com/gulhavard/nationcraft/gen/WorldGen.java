@@ -2,7 +2,7 @@ package com.gulhavard.nationcraft.gen;
 
 import java.util.Random;
 
-import com.gulhavard.nationcraft.blocks.BlockOre;
+import com.gulhavard.nationcraft.blocks.BlockCopperOre;
 import com.gulhavard.nationcraft.init.ModBlocks;
 import com.gulhavard.nationcraft.util.handlers.EnumHandler;
 
@@ -19,12 +19,14 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class WorldGen implements IWorldGenerator
 {
 	
-	private WorldGenerator copper_ore, tin_ore;
+	private WorldGenerator copper_ore, tin_ore, aluminum_ore, zinc_ore;
 	
 	public WorldGen()
 	{
-		copper_ore = new WorldGenMinable(ModBlocks.COPPER_ORE.getDefaultState().withProperty(BlockOre.VARIANT, EnumHandler.EnumType.COPPER_ORE), 7, BlockMatcher.forBlock(Blocks.STONE));
-		tin_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockOre.VARIANT, EnumHandler.EnumType.TIN_ORE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		copper_ore = new WorldGenMinable(ModBlocks.COPPER_ORE.getDefaultState().withProperty(BlockCopperOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		tin_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockCopperOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		aluminum_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockCopperOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		zinc_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockCopperOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
 	}
 	
 
@@ -36,6 +38,8 @@ public class WorldGen implements IWorldGenerator
 			
 			runGenerator(copper_ore, world, random, chunkX, chunkZ, 50, 0, 100);
 			runGenerator(tin_ore, world, random, chunkX, chunkZ, 50, 0, 100);
+			runGenerator(aluminum_ore, world, random, chunkX, chunkZ, 50, 0, 100);
+			runGenerator(zinc_ore, world, random, chunkX, chunkZ, 50, 0, 100);
 			
 			break;
 			

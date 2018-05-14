@@ -31,6 +31,7 @@ public class ModItems {
 	public static final Item TIN_INGOT = new ItemBase("tin_ingot");
 	public static final Item BRONZE_INGOT = new ItemBase("bronze_ingot");
 	public static final Item STEEL_INGOT = new ItemBase("steel_ingot");
+	//public static final Item ALUMINUM_INGOT = new ItemBase("aluminum_ingot");
 	
 	// Tools
 	/*public static final Item COPPER_HOE = new ToolHoe("copper_hoe", TOOL_COPPER);
