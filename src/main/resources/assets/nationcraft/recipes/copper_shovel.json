@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": 
+    [
+        " C ",
+        " S ",
+        " S "
+    ],
+    "key":
+    {
+        "C":
+        {
+        "item":"nationcraft:copper_ingot",
+        "data": 0
+        },
+        "S":
+        {
+        "item":"minecraft:stick",
+        "data": 0
+        }
+    },
+    "result":
+    {
+        "item": "nationcraft:copper_shovel",
+        "count": 1
+    }
+}

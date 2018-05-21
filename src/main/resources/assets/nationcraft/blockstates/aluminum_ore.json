@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=_stone": { "model": "nationcraft:aluminum_ore_stone" }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=_stone": { "model": "nationcraft:copper_ore_stone" }
+    }
+}

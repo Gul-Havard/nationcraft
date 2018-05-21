@@ -1,0 +1,42 @@
+// GUIs
+container.blast_furnace=Blast Furnace
+
+// ITEMS
+item.copper_ingot.name=Copper Ingot
+item.tin_ingot.name=Tin Ingot
+item.bronze_ingot.name=Bronze Ingot
+item.steel_ingot.name=Steel Ingot
+item.zinc_ingot.name=Zinc Ingot
+item.aluminum_ingot.name=Aluminum Ingot
+item.cobalt_ingot.name=Cobalt Ingot
+item.brass_ingot.name=Brass Ingot
+item.coal_dust.name=Coal Dust
+
+// TOOLS
+item.copper_sword.name=Copper Sword
+item.copper_axe.name=Copper Axe
+item.copper_pickaxe.name=Copper Pickaxe
+item.copper_shovel.name=Copper Shovel
+item.copper_hoe.name=Copper Hoe
+item.bronze_sword.name=Bronze Sword
+item.bronze_axe.name=Bronze Axe
+item.bronze_pickaxe.name=Bronze Pickaxe
+item.bronze_shovel.name=Bronze Shovel
+item.bronze_hoe.name=Bronze Hoe
+
+// ORE
+tile.copper_ore_stone.name=Copper Ore
+tile.tin_ore_stone.name=Tin Ore
+tile.zinc_ore_stone.name=Zinc Ore
+tile.aluminum_ore_stone.name=Aluminum Ore
+tile.cobalt_ore_stone.name=Cobalt Ore
+tile.uranium_ore_stone.name=Uranium Ore
+
+// METAL BLOCKS
+tile.copper_block.name=Copper Block
+
+// MACHINES
+tile.blast_furnace.name=Blast Furnace
+
+// CREATIVE TABS
+itemGroup.machinestab=Machines
