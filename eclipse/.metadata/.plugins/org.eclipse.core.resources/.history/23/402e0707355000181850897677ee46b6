@@ -1,8 +1,0 @@
-package com.gulhavard.nationcraft;
-
-import com.gulhavard.nationcraft.util.Reference;
-
-@Mod(mod_id = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
-public class Main {
-
-}

@@ -2,7 +2,11 @@ package com.gulhavard.nationcraft.gen;
 
 import java.util.Random;
 
+import com.gulhavard.nationcraft.blocks.BlockAluminumOre;
 import com.gulhavard.nationcraft.blocks.BlockCopperOre;
+import com.gulhavard.nationcraft.blocks.BlockTinOre;
+import com.gulhavard.nationcraft.blocks.BlockUraniumOre;
+import com.gulhavard.nationcraft.blocks.BlockZincOre;
 import com.gulhavard.nationcraft.init.ModBlocks;
 import com.gulhavard.nationcraft.util.handlers.EnumHandler;
 
@@ -19,14 +23,15 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class WorldGen implements IWorldGenerator
 {
 	
-	private WorldGenerator copper_ore, tin_ore, aluminum_ore, zinc_ore;
+	private WorldGenerator copper_ore, tin_ore, aluminum_ore, zinc_ore, uranium_ore;
 	
 	public WorldGen()
 	{
 		copper_ore = new WorldGenMinable(ModBlocks.COPPER_ORE.getDefaultState().withProperty(BlockCopperOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
-		tin_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockCopperOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
-		aluminum_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockCopperOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
-		zinc_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockCopperOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		tin_ore = new WorldGenMinable(ModBlocks.TIN_ORE.getDefaultState().withProperty(BlockTinOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		aluminum_ore = new WorldGenMinable(ModBlocks.ALUMINUM_ORE.getDefaultState().withProperty(BlockAluminumOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		zinc_ore = new WorldGenMinable(ModBlocks.ZINC_ORE.getDefaultState().withProperty(BlockZincOre.VARIANT, EnumHandler.EnumType.STONE), 7, BlockMatcher.forBlock(Blocks.STONE));
+		uranium_ore = new WorldGenMinable(ModBlocks.URANIUM_ORE.getDefaultState().withProperty(BlockUraniumOre.VARIANT, EnumHandler.EnumType.STONE), 10, BlockMatcher.forBlock(Blocks.STONE));
 	}
 	
 
@@ -36,10 +41,11 @@ public class WorldGen implements IWorldGenerator
 		{
 		case 0:
 			
-			runGenerator(copper_ore, world, random, chunkX, chunkZ, 50, 0, 100);
-			runGenerator(tin_ore, world, random, chunkX, chunkZ, 50, 0, 100);
-			runGenerator(aluminum_ore, world, random, chunkX, chunkZ, 50, 0, 100);
-			runGenerator(zinc_ore, world, random, chunkX, chunkZ, 50, 0, 100);
+			runGenerator(copper_ore, world, random, chunkX, chunkZ, 25, 0, 100);
+			runGenerator(tin_ore, world, random, chunkX, chunkZ, 35, 0, 100);
+			runGenerator(aluminum_ore, world, random, chunkX, chunkZ, 25, 0, 100);
+			runGenerator(zinc_ore, world, random, chunkX, chunkZ, 15, 0, 100);
+			runGenerator(uranium_ore, world, random, chunkX, chunkZ, 1, 0, 100);
 			
 			break;
 			
