@@ -50,6 +50,5 @@ public class RegistryHandler {
 	public static void otherRegistries()
 	{
 		GameRegistry.registerWorldGenerator(new WorldGen(), 0);
-		
 	}
 }

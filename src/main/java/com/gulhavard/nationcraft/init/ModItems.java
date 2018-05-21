@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.gulhavard.nationcraft.items.ItemBase;
+import com.gulhavard.nationcraft.items.ItemModFood;
 import com.gulhavard.nationcraft.items.tools.ToolSpade;
 import com.gulhavard.nationcraft.items.tools.ToolSword;
 import com.gulhavard.nationcraft.items.tools.ToolAxe;
@@ -70,6 +71,9 @@ public class ModItems {
 	public static final Item COPPER_CHESTPLATE = new ArmorBase("copper_chestplate", ARMOR_COPPER, 1, EntityEquipmentSlot.CHEST);
 	public static final Item COPPER_LEGGINGS = new ArmorBase("copper_leggings", ARMOR_COPPER, 2, EntityEquipmentSlot.LEGS);
 	public static final Item COPPER_BOOTS = new ArmorBase("copper_boots", ARMOR_COPPER, 1, EntityEquipmentSlot.FEET);*/
+	
+	// Food
+	public static final Item SANDWICH = new ItemModFood("sandwich", 20, false);
 	
 
 }

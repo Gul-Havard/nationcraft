@@ -27,7 +27,7 @@ public class BlastFurnaceRecipes
 	{
 		//addBlastRecipe(new ItemStack(ModBlocks.COPPER_ORE), new ItemStack(ModBlocks.TIN_ORE), new ItemStack(Blocks.ACACIA_FENCE), 5.0F);
 		//addBlastRecipe(new ItemStack(Blocks.ACACIA_FENCE), new ItemStack(Blocks.ACACIA_FENCE_GATE), new ItemStack(ModBlocks.BLAST_FURNACE), 5.0F);
-		addBlastRecipe(new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.BRONZE_INGOT, 2), 5.0F);
+		addBlastRecipe(new ItemStack(ModItems.COPPER_INGOT), new ItemStack(ModItems.TIN_INGOT), new ItemStack(ModItems.BRONZE_INGOT), 5.0F);
 	}
 
 	
